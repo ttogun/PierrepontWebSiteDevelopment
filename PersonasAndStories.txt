@@ -1,4 +1,4 @@
-Personas
+Personas and Stories
 
 Rodger Stevens
 
@@ -13,3 +13,18 @@ I am a student at Pierrepont school and I am very forgetful. My handwriting is p
 
 Taino Shogun: Teacher
 I am a teacher at Pierrepont school and I was interested in being able to write reports and save them online. A template would be a lot nicer to work with, rather than editing, copying, and pasting word documents. Also, if necessary it would be easier to send these reports along to the student upon request.
+
+Dr. Roy Givings: Neurosurgeon
+I am a single father of three lovely girls currently in middle and high school. I live in Fairfield, where I practice my profession in medicine. However, the nature of my job as a Neurosurgeon demands that I travel on a frequent basis to attend to serious medical needs of many of my patients who are international. Time is one thing that I don’t have enough of, and I would relish the opportunity to be kept appraised of what is going on in my daughters’ school. 
+
+Mrs. Worthwhile: Nanny
+I am a nanny who serves the role of a guardian for three children, attending Pierrepont School in Westport. I live in Norwalk; and when I am not with the children, I am a seamstress who delights in her craft.  I am not the most computer-literate person; however, I would like to be able to get first hand updates on Pierrepont activities, especially in the winter to determine if my children have school.
+
+Story 1.
+As a very organized but busy parent, I would like to visit my forgetful son’s school’s website to update myself on necessary weekly information.
+
+Story 2. 
+As a student, I would like to visit my school website to show my friends how cool my school is.
+
+
+
