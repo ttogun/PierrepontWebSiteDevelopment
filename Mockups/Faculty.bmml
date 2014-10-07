@@ -5,21 +5,13 @@
         <text>The%20Pierrepont%20School%0Ahttp%3A//www.pierrepontschool.org</text>
       </controlProperties>
     </control>
-<<<<<<< HEAD
-    <control controlID="1" controlTypeID="com.balsamiq.mockups::Image" x="336" y="101" w="1272" h="701" measuredW="1280" measuredH="878" zOrder="1" locked="true" isInGroup="-1">
-=======
     <control controlID="2" controlTypeID="com.balsamiq.mockups::Image" x="336" y="101" w="1272" h="701" measuredW="1280" measuredH="878" zOrder="1" locked="true" isInGroup="-1">
->>>>>>> FETCH_HEAD
       <controlProperties>
         <src>http%3A//upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Pierrepont_School%2C_Westport%2C_CT_06880%2C_USA_-_Oct_2013.jpg/1280px-Pierrepont_School%2C_Westport%2C_CT_06880%2C_USA_-_Oct_2013.jpg</src>
         <text/>
       </controlProperties>
     </control>
-<<<<<<< HEAD
-    <control controlID="2" controlTypeID="com.balsamiq.mockups::TextArea" x="347" y="283" w="208" h="41" measuredW="200" measuredH="140" zOrder="2" locked="false" isInGroup="-1">
-=======
     <control controlID="8" controlTypeID="com.balsamiq.mockups::TextArea" x="347" y="283" w="208" h="41" measuredW="200" measuredH="140" zOrder="2" locked="false" isInGroup="-1">
->>>>>>> FETCH_HEAD
       <controlProperties>
         <align>left</align>
         <backgroundAlpha>0.5</backgroundAlpha>
@@ -28,11 +20,7 @@
         <text>About</text>
       </controlProperties>
     </control>
-<<<<<<< HEAD
-    <control controlID="3" controlTypeID="com.balsamiq.mockups::TextArea" x="347" y="365" w="208" h="41" measuredW="200" measuredH="140" zOrder="3" locked="false" isInGroup="-1">
-=======
     <control controlID="9" controlTypeID="com.balsamiq.mockups::TextArea" x="347" y="365" w="208" h="41" measuredW="200" measuredH="140" zOrder="3" locked="false" isInGroup="-1">
->>>>>>> FETCH_HEAD
       <controlProperties>
         <align>left</align>
         <backgroundAlpha>0.5</backgroundAlpha>
@@ -41,11 +29,7 @@
         <text>Administration</text>
       </controlProperties>
     </control>
-<<<<<<< HEAD
-    <control controlID="4" controlTypeID="com.balsamiq.mockups::TextArea" x="347" y="406" w="208" h="41" measuredW="200" measuredH="140" zOrder="4" locked="false" isInGroup="-1">
-=======
     <control controlID="10" controlTypeID="com.balsamiq.mockups::TextArea" x="347" y="406" w="208" h="41" measuredW="200" measuredH="140" zOrder="4" locked="false" isInGroup="-1">
->>>>>>> FETCH_HEAD
       <controlProperties>
         <align>left</align>
         <backgroundAlpha>0.5</backgroundAlpha>
@@ -54,11 +38,7 @@
         <text>Humanities</text>
       </controlProperties>
     </control>
-<<<<<<< HEAD
-    <control controlID="5" controlTypeID="com.balsamiq.mockups::TextArea" x="347" y="489" w="208" h="41" measuredW="200" measuredH="140" zOrder="5" locked="false" isInGroup="-1">
-=======
     <control controlID="11" controlTypeID="com.balsamiq.mockups::TextArea" x="347" y="489" w="208" h="41" measuredW="200" measuredH="140" zOrder="5" locked="false" isInGroup="-1">
->>>>>>> FETCH_HEAD
       <controlProperties>
         <align>left</align>
         <backgroundAlpha>0.5</backgroundAlpha>
@@ -67,11 +47,7 @@
         <text>Arts</text>
       </controlProperties>
     </control>
-<<<<<<< HEAD
-    <control controlID="6" controlTypeID="com.balsamiq.mockups::TextArea" x="347" y="448" w="208" h="41" measuredW="200" measuredH="140" zOrder="6" locked="false" isInGroup="-1">
-=======
     <control controlID="12" controlTypeID="com.balsamiq.mockups::TextArea" x="347" y="448" w="208" h="41" measuredW="200" measuredH="140" zOrder="6" locked="false" isInGroup="-1">
->>>>>>> FETCH_HEAD
       <controlProperties>
         <align>left</align>
         <backgroundAlpha>0.5</backgroundAlpha>
@@ -80,11 +56,7 @@
         <text>Sciences</text>
       </controlProperties>
     </control>
-<<<<<<< HEAD
-    <control controlID="7" controlTypeID="com.balsamiq.mockups::TextArea" x="347" y="530" w="208" h="41" measuredW="200" measuredH="140" zOrder="7" locked="false" isInGroup="-1">
-=======
     <control controlID="13" controlTypeID="com.balsamiq.mockups::TextArea" x="347" y="530" w="208" h="41" measuredW="200" measuredH="140" zOrder="7" locked="false" isInGroup="-1">
->>>>>>> FETCH_HEAD
       <controlProperties>
         <align>left</align>
         <backgroundAlpha>0.5</backgroundAlpha>
@@ -93,20 +65,12 @@
         <text>Lower%20School</text>
       </controlProperties>
     </control>
-<<<<<<< HEAD
-    <control controlID="8" controlTypeID="com.balsamiq.mockups::Canvas" x="570" y="283" w="1027" h="491" measuredW="100" measuredH="70" zOrder="8" locked="false" isInGroup="-1">
-=======
     <control controlID="15" controlTypeID="com.balsamiq.mockups::Canvas" x="570" y="283" w="1027" h="491" measuredW="100" measuredH="70" zOrder="8" locked="false" isInGroup="-1">
->>>>>>> FETCH_HEAD
       <controlProperties>
         <backgroundAlpha>0.5</backgroundAlpha>
       </controlProperties>
     </control>
-<<<<<<< HEAD
-    <control controlID="9" controlTypeID="com.balsamiq.mockups::TextArea" x="347" y="324" w="208" h="41" measuredW="200" measuredH="140" zOrder="9" locked="false" isInGroup="-1">
-=======
     <control controlID="16" controlTypeID="com.balsamiq.mockups::TextArea" x="347" y="324" w="208" h="41" measuredW="200" measuredH="140" zOrder="9" locked="false" isInGroup="-1">
->>>>>>> FETCH_HEAD
       <controlProperties>
         <align>left</align>
         <backgroundAlpha>0.5</backgroundAlpha>
@@ -115,11 +79,7 @@
         <text>Faculty</text>
       </controlProperties>
     </control>
-<<<<<<< HEAD
-    <control controlID="10" controlTypeID="com.balsamiq.mockups::TextArea" x="347" y="571" w="208" h="41" measuredW="200" measuredH="140" zOrder="10" locked="false" isInGroup="-1">
-=======
     <control controlID="17" controlTypeID="com.balsamiq.mockups::TextArea" x="347" y="571" w="208" h="41" measuredW="200" measuredH="140" zOrder="10" locked="false" isInGroup="-1">
->>>>>>> FETCH_HEAD
       <controlProperties>
         <align>left</align>
         <backgroundAlpha>0.5</backgroundAlpha>
@@ -128,11 +88,7 @@
         <text>Curriculum</text>
       </controlProperties>
     </control>
-<<<<<<< HEAD
-    <control controlID="11" controlTypeID="com.balsamiq.mockups::TextArea" x="347" y="654" w="208" h="41" measuredW="200" measuredH="140" zOrder="11" locked="false" isInGroup="-1">
-=======
     <control controlID="18" controlTypeID="com.balsamiq.mockups::TextArea" x="347" y="654" w="208" h="41" measuredW="200" measuredH="140" zOrder="11" locked="false" isInGroup="-1">
->>>>>>> FETCH_HEAD
       <controlProperties>
         <align>left</align>
         <backgroundAlpha>0.5</backgroundAlpha>
@@ -141,11 +97,7 @@
         <text>Admissions</text>
       </controlProperties>
     </control>
-<<<<<<< HEAD
-    <control controlID="12" controlTypeID="com.balsamiq.mockups::TextArea" x="347" y="613" w="208" h="41" measuredW="200" measuredH="140" zOrder="12" locked="false" isInGroup="-1">
-=======
     <control controlID="19" controlTypeID="com.balsamiq.mockups::TextArea" x="347" y="613" w="208" h="41" measuredW="200" measuredH="140" zOrder="12" locked="false" isInGroup="-1">
->>>>>>> FETCH_HEAD
       <controlProperties>
         <align>left</align>
         <backgroundAlpha>0.5</backgroundAlpha>
@@ -154,11 +106,7 @@
         <text>Community</text>
       </controlProperties>
     </control>
-<<<<<<< HEAD
-    <control controlID="13" controlTypeID="com.balsamiq.mockups::TextArea" x="347" y="695" w="208" h="41" measuredW="200" measuredH="140" zOrder="13" locked="false" isInGroup="-1">
-=======
     <control controlID="20" controlTypeID="com.balsamiq.mockups::TextArea" x="347" y="695" w="208" h="41" measuredW="200" measuredH="140" zOrder="13" locked="false" isInGroup="-1">
->>>>>>> FETCH_HEAD
       <controlProperties>
         <align>left</align>
         <backgroundAlpha>0.5</backgroundAlpha>
@@ -167,11 +115,7 @@
         <text>Contact</text>
       </controlProperties>
     </control>
-<<<<<<< HEAD
-    <control controlID="14" controlTypeID="com.balsamiq.mockups::Image" x="257" y="35" w="412" h="256" measuredW="77" measuredH="79" zOrder="14" locked="false" isInGroup="-1">
-=======
     <control controlID="21" controlTypeID="com.balsamiq.mockups::Image" x="257" y="35" w="412" h="256" measuredW="300" measuredH="165" zOrder="14" locked="false" isInGroup="-1">
->>>>>>> FETCH_HEAD
       <controlProperties>
         <src>./logo.png</src>
         <text/>
