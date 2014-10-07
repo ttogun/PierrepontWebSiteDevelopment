@@ -1,0 +1,132 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1612" measuredH="827" mockupW="1355" mockupH="800">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="332" y="27" w="1280" h="800" measuredW="450" measuredH="400" zOrder="0" locked="true" isInGroup="-1">
+      <controlProperties>
+        <text>The%20Pierrepont%20School%0Ahttp%3A//www.pierrepontschool.org</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Image" x="336" y="101" w="1272" h="701" measuredW="1280" measuredH="878" zOrder="1" locked="true" isInGroup="-1">
+      <controlProperties>
+        <src>http%3A//upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Pierrepont_School%2C_Westport%2C_CT_06880%2C_USA_-_Oct_2013.jpg/1280px-Pierrepont_School%2C_Westport%2C_CT_06880%2C_USA_-_Oct_2013.jpg</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::TextArea" x="347" y="283" w="208" h="41" measuredW="200" measuredH="140" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <bold>true</bold>
+        <size>24</size>
+        <text>About</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::TextArea" x="347" y="324" w="208" h="41" measuredW="200" measuredH="140" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <bold>true</bold>
+        <color>15658734</color>
+        <size>20</size>
+        <text>Overview</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::TextArea" x="347" y="365" w="208" h="41" measuredW="200" measuredH="140" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <bold>false</bold>
+        <size>20</size>
+        <text>Mission%20Statement</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::TextArea" x="347" y="448" w="208" h="41" measuredW="200" measuredH="140" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <bold>false</bold>
+        <size>20</size>
+        <text>From%20the%20Head</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::TextArea" x="347" y="407" w="208" h="41" measuredW="200" measuredH="140" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <bold>false</bold>
+        <size>20</size>
+        <text>Founder%27s%20Statement</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::TextArea" x="347" y="489" w="208" h="41" measuredW="200" measuredH="140" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <bold>false</bold>
+        <size>20</size>
+        <text>Alumni</text>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::Canvas" x="570" y="283" w="1027" h="491" measuredW="100" measuredH="70" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::TextArea" x="347" y="530" w="208" h="41" measuredW="200" measuredH="140" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <bold>true</bold>
+        <size>24</size>
+        <text>Faculty</text>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::TextArea" x="347" y="571" w="208" h="41" measuredW="200" measuredH="140" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <bold>true</bold>
+        <size>24</size>
+        <text>Curriculum</text>
+      </controlProperties>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::TextArea" x="347" y="654" w="208" h="41" measuredW="200" measuredH="140" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <bold>true</bold>
+        <size>24</size>
+        <text>Admissions</text>
+      </controlProperties>
+    </control>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::TextArea" x="347" y="613" w="208" h="41" measuredW="200" measuredH="140" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <bold>true</bold>
+        <size>24</size>
+        <text>Community</text>
+      </controlProperties>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::TextArea" x="347" y="695" w="208" h="41" measuredW="200" measuredH="140" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <bold>true</bold>
+        <size>24</size>
+        <text>Contact</text>
+      </controlProperties>
+    </control>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::Image" x="257" y="35" w="412" h="256" measuredW="300" measuredH="165" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./logo.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::Paragraph" x="592" y="306" w="982" h="460" measuredW="275" measuredH="80" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>The%20school%20currently%20consists%20of%20eighty-five%20students%2C%20K%u201312%2C%20and%20twenty-nine%20full%20and%20part-time%20teachers%2C%20offering%20a%20student%20to%20faculty%20ratio%20of%20less%20than%20three%20to%20one.%20Classes%2C%20therefore%2C%20are%20small%2C%20and%20student%20schedules%20are%20individualized.%20Senior%20faculty%20members%20typically%20have%20post-graduate%20degrees%20from%20leading%20universities%20and%20are%20professionally%20active%20in%20their%20fields.%20The%20school%20seeks%20and%20supports%20teachers%20who%20bring%20into%20the%20classroom%20the%20same%20passion%20and%20rigor%20they%20bring%20to%20the%20study%20of%20their%20own%20discipline.%20%28See%20individual%20faculty%20under%20each%20discipline.%29%0A%20%0APierrepont%20seeks%20students%20who%20are%20academically%20motivated%20and%20engaged%20and%20who%20can%20participate%20successfully%20in%20a%20demanding%20curriculum.%20Chronological%20age%20serves%20as%20a%20tentative%20guide%20for%20placement%20that%20is%20answerable%20to%20the%20variegations%20in%20academic%20skills%2C%20needs%20and%20maturity%20among%20children.%20The%20schedule%20allows%20for%20individualized%20placement%20as%20students%20are%20departmentalized%20from%20the%20earliest%20ages.%20As%20a%20result%2C%20even%20the%20youngest%20students%20have%20classes%20with%20teachers%20who%20are%20specialists%20in%20their%20disciplines%2C%20although%20they%20also%20spend%20significant%20time%20in%20a%20homeroom%20under%20the%20care%20of%20a%20master%20teacher%20and%20an%20associate%20teacher.%0A%20%0AStarting%20at%20about%20five%20years%20old%2C%20students%20are%20fully%20departmentalized%20and%20have%20a%20schedule%20that%20consists%20of%20English%2C%20history%2C%20math%2C%20science%2C%20and%20the%20first%20of%20a%20four%20year%20grammar/reading%20sequence%20that%20prepares%20the%20students%20to%20study%20foreign%20language.%20In%20the%20final%20year%20of%20the%20grammar%20sequence%2C%20students%20are%20offered%20the%20opportunity%20to%20study%20Mandarin%20Chinese.%20Once%20the%20students%20have%20completed%20the%20grammar%20sequence%2C%20they%20begin%20the%20formal%20study%20of%20Latin.%20After%20one%20year%20of%20Latin%2C%20ancient%20Greek%20is%20available%20as%20an%20elective.%20%20French%20is%20offered%20in%20the%20High%20School.%20%20The%20students%20eligible%20for%20this%20course%20are%20currently%20studying%20two%20languages%20in%20which%20they%20have%20demonstrated%20ample%20mastery.%20%20In%20addition%2C%20all%20students%20have%20classes%20in%20art%2C%20music%2C%20dance%20and%20theater%20twice%20a%20week.%0A%20%0APierrepont%20School%20does%20not%20give%20grades.%20Parents%20receive%20written%20assessments%20of%20their%20child%u2019s%20progress%20four%20times%20a%20year.%20A%20cover%20report%20from%20the%20Head%20of%20School%20or%20Associate%20Head%20of%20School%20accompanies%20the%20June%20reports.%20The%20school%20closes%20for%20two%20days%2C%20one%20in%20November%20and%20one%20in%20April%2C%20for%20parent-teacher%20conferences.%20Standardized%20testing%20%28ERB%29%20in%20basic%20skills%20areas%20%28math%20and%20language/reading%29%20is%20administered%20annually.%0A%20%0APierrepont%20is%20currently%20accepting%20applications%20for%20the%202014%20%u2013%202015%20school%20year.%20School%20tours%20for%20prospective%20parents%20are%20conducted%20on%20Thursdays%20at%2011%3A00%20AM%20beginning%20in%20October.%20Please%20call%20Tund%E9%20Jackson%20to%20arrange%20for%20a%20tour.%20Tuition%20assistance%20is%20available%20according%20to%20financial%20need.</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
