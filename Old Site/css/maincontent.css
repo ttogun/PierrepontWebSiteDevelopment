@@ -1,0 +1,121 @@
+td {
+	font-family: "Trebuchet MS";
+	color: #666666;
+	font-size: 10pt;
+}
+.border {
+	border: 1px solid #CECECE;
+	background-color: #FFFFFF;
+}
+.bold {
+	font-family: "Trebuchet MS";
+	font-size: 10pt;
+	font-weight: bold;
+	color: #333333;
+}
+a:link {
+	font-family: "Trebuchet MS";
+	font-size: 10pt;
+	color: #666666;
+	text-decoration: underline;
+}
+a:visited {
+	font-family: "Trebuchet MS";
+	font-size: 10pt;
+	color: #666666;
+	text-decoration: underline;
+}
+a:hover {
+	font-family: "Trebuchet MS";
+	font-size: 10pt;
+	color: #333333;
+	text-decoration: underline;
+	background-color: #E0E0E0;
+}
+.white_dots {
+	font-family: "Trebuchet MS";
+	font-size: 10pt;
+	color: #FFFFFF;
+}
+a.subnav:link {
+	font-family: "Trebuchet MS";
+	font-size: 9pt;
+	color: #666666;
+}
+a.subnav:visited {
+	font-family: "Trebuchet MS";
+	font-size: 9pt;
+	color: #666666;
+}
+a.subnav:hover {
+	font-family: "Trebuchet MS";
+	font-size: 9pt;
+	color: #FFFFFF;
+	background-color: #057706;
+}
+.arrows_blue {
+	font-family: "Trebuchet MS";
+	font-size: 9pt;
+	color: #006600;
+}
+.pagetitle {
+	font-family: "Trebuchet MS";
+	font-size: 14pt;
+	font-weight: bold;
+	color: #333333;
+}
+a.splashnav:link {
+	font-family: "Trebuchet MS";
+	font-size: 13px;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+}
+.splashnav {
+	font-family: "Trebuchet MS";
+	font-size: 9pt;
+	color: #FFFFFF;
+}
+a.splashnav:visited {
+	font-family: "Trebuchet MS";
+	font-size: 13px;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+}
+a.splashnav:hover {
+	font-family: "Trebuchet MS";
+	font-size: 13px;
+	color: #006600;
+	text-decoration: none;
+	font-weight: bold;
+	background-color: #FFFFFF;
+}
+.italic_bold {
+	font-family: "Trebuchet MS";
+	font-size: 10pt;
+	font-style: italic;
+	font-weight: bold;
+	color: #666666;
+}
+.italic {
+	font-family: "Trebuchet MS";
+	font-size: 10pt;
+	font-style: italic;
+	color: #333333;
+}
+a.splashlinks:link {
+	font-family: "Trebuchet MS";
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a.splashlinks:visited {
+	font-family: "Trebuchet MS";
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a.splashlinks:hover {
+	font-family: "Trebuchet MS";
+	color: #FFFFFF;
+	text-decoration: none;
+}
