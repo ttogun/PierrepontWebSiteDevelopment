@@ -1,0 +1,66 @@
+
+School-wide student teacher ratio
+
+Median class size, school-wide
+
+Age at which academic departmentalization begins
+
+Earliest grade at which AP-level courses begin
+
+Typical number of full academic courses per annum in high school
+
+Maximum number of full academic courses per annum in high school
+
+Typical number of arts-based courses per annum in high school
+
+Maximum number of arts-based courses per annum in high school
+
+Percentage of faculty with PhDs and/or Master’s degrees
+
+Percentage of faculty who attended “top” universities
+
+Percentage of faculty who are professionally active outside Pierrepont
+
+ 
+
+Discrete academic courses in kindergarten
+
+Typical age at which language study begins
+
+Percentage of high school students who take 2 or more languages
+
+Percentage of high school students who take 3 or more languages
+
+Earliest grade at which university-level mathematics is taught
+
+Percentage of students who participate in theater program
+
+Percentage of students who participate in dance and/or music programs
+
+Percentage of students who take Studio Art
+
+ 
+
+Statewide rank for 2012 MathCounts competition
+
+Percentage of Summa Cum Laude Awards on National Latin Exam
+
+Number of Students who currently participate in Chamber Singers and Chorus
+
+Number of students who currently participate in Chess program
+
+Number of chess trophies recently placed in storage due to overcrowding
+
+Percentage of academic courses in which students receive grades
+
+Percentage of students who’ve read the Iliad and Odyssey by 7th grade
+
+Lowest percentile rank of Pierrepont students who took the AMC 12 last year
+
+Consecutive years of Shakespeare performances in Theater program
+
+Number of languages sung in 2012 Music Performance
+
+Student/faculty participation rate for 2012 Rock-Paper-Scissors competition
+
+Likely national rank in Rubik’s Cube team competition
