@@ -14,7 +14,7 @@ Continue working through content
 TODO, Needed from school/administration
 ============================
 
-Current Faculty?
+108 students, 30 faculty
 
 Update faculty in departments as needed
 
@@ -30,17 +30,13 @@ Tuition Numbers
 
 Average Class Size
 
-Is there intramural soccer?
-
 Statistics
 
-Years in Head, Founders
+Founders
 
 Math head/writer
 
 Separate theater and dance statements
-
-Music head?
 
 English head/writer
 
@@ -49,8 +45,6 @@ Update all statements
 Lower head?
 
 Update math counts
-
-Student and faculty counts for overview
 
 Update Chess
 
