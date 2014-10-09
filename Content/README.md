@@ -2,10 +2,15 @@ Content
 ============================
 Content in-progress for new site
 
-TODO
+
+TODO, Internal
 ============================
 
+EDIT STATISTICS!!!
+
+
 TODO, Needed from school/administration
+============================
 
 Current Faculty?
 
@@ -50,8 +55,3 @@ Update Chess
 Update Seminars
 
 Update Extra Curriculuars
-
-
-TODO, Internal
-
-EDIT STATISTICS!!!
