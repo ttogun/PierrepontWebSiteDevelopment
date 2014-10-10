@@ -3,51 +3,62 @@ Content
 Content in-progress for new site
 
 
-TODO, Internal
+TODO
 ============================
 
 EDIT STATISTICS!!!
 
 Continue working through content
 
-
-TODO, Needed from school/administration
-============================
-
-108 students, 30 faculty
-
 Update faculty in departments as needed
 
-Course Offerings
+Work on selecting statistics
 
-Extra Curriculars
+Create/Edit content from Nancy
 
-Independent Studies
 
-Updated Application forms
+Waiting For
+============================
 
-Tuition Numbers
+List of course offerings
 
-Average Class Size
+List of current extra-curriculars
 
-Statistics
+Current, updated application forms
 
-Founders
+Tuition numbers for next year
 
-Math head/writer
+Average class size
 
-Separate theater and dance statements
+Updated information on seminars
 
-English head/writer
+Information regarding independent studies
 
-Update all statements
+Updated Founder’s Statement
 
-Lower head?
+Updated From the Head of School
 
-Update math counts
 
-Update Chess
+Informational Blurbs:
 
-Update Seminars
+Science
 
-Update Extra Curriculuars
+Math
+
+Languages
+
+English
+
+History
+
+Art
+
+Music
+
+Theater
+
+Dance
+
+Lower School
+
+Shorter Blurbs for Extracurriculars
