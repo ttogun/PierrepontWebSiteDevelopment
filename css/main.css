@@ -3,6 +3,16 @@
  * Copyright 2014 Pierrepont Solutions
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+#page{
+    height: 100%;
+}
+#body{
+    background: -webkit-linear-gradient(left top, #FFFFFF , #B5D1A8); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #FFFFFF, #B5D1A8); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #FFFFFF, #B5D1A8); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #FFFFFF , #B5D1A8); /* Standard syntax */
+    height: 100%;
+}
 .container{
     margin:0;
     width: auto;
@@ -24,6 +34,7 @@
     float: right;
     width: 77%;
     padding: 0;
+    
 }
 /* Needs better dimensions, will be easier with image */
 #logo{
