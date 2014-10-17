@@ -5,7 +5,7 @@
  */
 .container{
     margin:0;
-    
+    width: auto;
     padding: 0;
 }
 #sidebar{
@@ -18,7 +18,6 @@
     float: left;
 }
 #content{
-    background-color: red;
     margin-left: 2%;
     margin-right: 2%;
     margin-top: 17%;
@@ -29,11 +28,18 @@
 }
 /* Needs better dimensions, will be easier with image */
 #logo{
-    height: 15%;
+    width: 100%;
+ 
+}
+#logoContainer {
+    display: inline-block;
+    position: relative;
     width: 15%;
-    background-color: green;
-    margin-left: 2%;
+    margin-left: 3%;
     margin-top: 1%;
     margin-bottom: 1%;
     position:fixed;
+}
+#dummy {
+    margin-top: 0%; /* 4:3 aspect ratio */
 }

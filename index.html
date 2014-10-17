@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="">
         <meta name="author" content="Pierrepont Solutions">
-        <link rel="icon" href="http://getbootstrap.com/favicon.ico">
+        <link rel="shortcut icon" href="favicon.ico"/>
 
         <title>The Pierrepont School</title>
 
@@ -37,16 +37,70 @@
 
     <div class="container theme-showcase" role="main">
     
-    <header id="logo">
-        LOGO!
-    </header>
+    <div id="logoContainer">
+        <div id="dummy"></div>
+        <img id="logo" src="logo.png">
+    </div>
+    
     
     <nav id="sidebar">
         SIDEBAR!!!
     </nav>
     
     <div id="content">
-        STUFF STUFF STUFF STUFF STUFF!!!!!
+        <div class="AccordionProject centered">
+            <div class="panel-group" id="WebsiteAccordion">
+                <!--The first panel in ws-->
+                <div class="panel panel-default">
+                    <div class="panel-heading leftAlign">
+                        <a data-toggle="collapse" data-parent="#WebsiteAccordion" href="#TeamCPlusPlus">
+                            <h4 class="panel-title">Overview</h4>
+                        </a>
+                    </div><!--/.panel-heading-->
+                    <div id="TeamCPlusPlus" class="panel-collapse collapse in">
+                        <div class="panel-body text-center">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <p>Describe ascribe</p>
+                                    <p>some text</p>
+                                    <br> <br>
+                                    <p>some more text</p>
+                                </div><!--/.col-md-8-->
+                                <!-- <div class="col-md-4">
+                                 <a href="http://indie-soft.com/a100" target="_blank"><img src="resources/img/A100RedesignC++.png" class="img-responsive imgCenter" alt="A100 Site"></a>
+                                 </div> <!--/.col-md-4-->  -->
+                            </div><!--/.row-->
+                        </div><!--/.panel-body-->
+                    </div><!--/.id=TeamCPlusPlus-->
+                </div><!--/.panel panel-default-->
+                
+                <!--The second panel in ws-->
+                <div class="panel panel-default">
+                    <div class="panel-heading leftAlign">
+                        <a data-toggle="collapse" data-parent="#WebsiteAccordion" href="#TeamA">
+                            <h4 class="panel-title">Mission Statement</h4>
+                        </a>
+                    </div><!--/.panel-heading-->
+                    <div id="TeamA" class="panel-collapse collapse">
+                        <div class="panel-body text-center">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <p>Team: Victor Mutai, Kevin Martindale, John Devivo</p>
+                                    <p>Winter Cohort 2014</p>
+                                    <br> <br>
+                                    <p>"This project turned me from a lone wolf programmer to a team player." -Victor Mutai</p>
+                                </div><!--/.col-md-8-->
+                                <!--   <div class="col-md-4">
+                                 <a href="Resources/TeamA-A100/index.html" target="_blank"><img src="resources/img/A100RedesignA.png" class="img-responsive imgCenter" alt="A100 Site"></a>
+                                 </div><!--/.col-md-4-->  -->
+                            </div><!--/.row-->
+                        </div><!--/.panel-body-->
+                    </div><!--/.id=TeamA-->
+                </div><!--/.panel panel-default-->
+                
+            </div><!--/.panel-group-->
+        </div><!--/.id=ws-->
+
     </div>
 
 
