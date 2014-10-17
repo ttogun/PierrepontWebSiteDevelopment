@@ -9,13 +9,13 @@
     padding: 0;
 }
 #sidebar{
-    background-color:grey;
     margin-left: 2%;
     margin-right: 0;
     margin-top: 17%;
     width: 17%;
-    padding: 5px;
+    padding: 0;
     float: left;
+    position: fixed;
 }
 #content{
     margin-left: 2%;
@@ -23,8 +23,7 @@
     margin-top: 17%;
     float: right;
     width: 77%;
-    padding: 5px;
-    
+    padding: 0;
 }
 /* Needs better dimensions, will be easier with image */
 #logo{
@@ -33,7 +32,6 @@
 }
 #logoContainer {
     display: inline-block;
-    position: relative;
     width: 15%;
     margin-left: 3%;
     margin-top: 1%;
@@ -42,4 +40,11 @@
 }
 #dummy {
     margin-top: 0%; /* 4:3 aspect ratio */
+}
+.col-md-8{
+    width: 100%;
+}
+.panel-title{
+    color: #519332;
+
 }
