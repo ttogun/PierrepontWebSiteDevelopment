@@ -59,6 +59,10 @@
     color: #519332;
 
 }
+
+.sidebarLink{
+    padding-left: 0em;
+}
 .activeLink{
     padding-left: 1.5em;
 }
