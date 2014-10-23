@@ -5,13 +5,13 @@
         <text>The%20Pierrepont%20School%0Ahttp%3A//www.pierrepontschool.org</text>
       </controlProperties>
     </control>
-    <control controlID="2" controlTypeID="com.balsamiq.mockups::Image" x="336" y="101" w="1272" h="701" measuredW="1280" measuredH="878" zOrder="1" locked="true" isInGroup="-1">
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Image" x="336" y="101" w="1272" h="701" measuredW="1280" measuredH="878" zOrder="1" locked="true" isInGroup="-1">
       <controlProperties>
         <src>http%3A//upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Pierrepont_School%2C_Westport%2C_CT_06880%2C_USA_-_Oct_2013.jpg/1280px-Pierrepont_School%2C_Westport%2C_CT_06880%2C_USA_-_Oct_2013.jpg</src>
         <text/>
       </controlProperties>
     </control>
-    <control controlID="8" controlTypeID="com.balsamiq.mockups::TextArea" x="347" y="283" w="208" h="41" measuredW="200" measuredH="140" zOrder="2" locked="false" isInGroup="-1">
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::TextArea" x="347" y="283" w="208" h="41" measuredW="200" measuredH="140" zOrder="2" locked="false" isInGroup="-1">
       <controlProperties>
         <align>left</align>
         <backgroundAlpha>0.5</backgroundAlpha>
@@ -20,7 +20,7 @@
         <text>About</text>
       </controlProperties>
     </control>
-    <control controlID="16" controlTypeID="com.balsamiq.mockups::TextArea" x="347" y="324" w="208" h="41" measuredW="200" measuredH="140" zOrder="3" locked="false" isInGroup="-1">
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::TextArea" x="347" y="324" w="208" h="41" measuredW="200" measuredH="140" zOrder="3" locked="false" isInGroup="-1">
       <controlProperties>
         <align>left</align>
         <backgroundAlpha>0.5</backgroundAlpha>
@@ -29,7 +29,7 @@
         <text>Faculty</text>
       </controlProperties>
     </control>
-    <control controlID="17" controlTypeID="com.balsamiq.mockups::TextArea" x="347" y="366" w="208" h="41" measuredW="200" measuredH="140" zOrder="4" locked="false" isInGroup="-1">
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::TextArea" x="347" y="366" w="208" h="41" measuredW="200" measuredH="140" zOrder="4" locked="false" isInGroup="-1">
       <controlProperties>
         <align>left</align>
         <backgroundAlpha>0.5</backgroundAlpha>
@@ -38,7 +38,7 @@
         <text>Curriculum</text>
       </controlProperties>
     </control>
-    <control controlID="18" controlTypeID="com.balsamiq.mockups::TextArea" x="347" y="449" w="208" h="41" measuredW="200" measuredH="140" zOrder="5" locked="false" isInGroup="-1">
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::TextArea" x="347" y="449" w="208" h="41" measuredW="200" measuredH="140" zOrder="5" locked="false" isInGroup="-1">
       <controlProperties>
         <align>left</align>
         <backgroundAlpha>0.5</backgroundAlpha>
@@ -47,7 +47,7 @@
         <text>Admissions</text>
       </controlProperties>
     </control>
-    <control controlID="19" controlTypeID="com.balsamiq.mockups::TextArea" x="347" y="408" w="208" h="41" measuredW="200" measuredH="140" zOrder="6" locked="false" isInGroup="-1">
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::TextArea" x="347" y="408" w="208" h="41" measuredW="200" measuredH="140" zOrder="6" locked="false" isInGroup="-1">
       <controlProperties>
         <align>left</align>
         <backgroundAlpha>0.5</backgroundAlpha>
@@ -56,7 +56,7 @@
         <text>Community</text>
       </controlProperties>
     </control>
-    <control controlID="20" controlTypeID="com.balsamiq.mockups::TextArea" x="347" y="490" w="208" h="41" measuredW="200" measuredH="140" zOrder="7" locked="false" isInGroup="-1">
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::TextArea" x="347" y="490" w="208" h="41" measuredW="200" measuredH="140" zOrder="7" locked="false" isInGroup="-1">
       <controlProperties>
         <align>left</align>
         <backgroundAlpha>0.5</backgroundAlpha>
@@ -65,9 +65,9 @@
         <text>Contact</text>
       </controlProperties>
     </control>
-    <control controlID="22" controlTypeID="com.balsamiq.mockups::Image" x="257" y="35" w="412" h="256" measuredW="300" measuredH="165" zOrder="8" locked="false" isInGroup="-1">
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::Image" x="257" y="35" w="412" h="256" measuredW="300" measuredH="165" zOrder="8" locked="false" isInGroup="-1">
       <controlProperties>
-        <src>./logo.png</src>
+        <src>./assets/logo.png</src>
         <text/>
       </controlProperties>
     </control>

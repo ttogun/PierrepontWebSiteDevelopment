@@ -20,54 +20,54 @@
         <text>About</text>
       </controlProperties>
     </control>
-    <control controlID="3" controlTypeID="com.balsamiq.mockups::TextArea" x="570" y="365" w="1026" h="41" measuredW="200" measuredH="140" zOrder="4" locked="false" isInGroup="-1">
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Canvas" x="570" y="283" w="1027" h="491" measuredW="100" measuredH="70" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::TextArea" x="570" y="283" w="1026" h="41" measuredW="200" measuredH="140" zOrder="4" locked="false" isInGroup="-1">
       <controlProperties>
         <align>left</align>
         <backgroundAlpha>0.5</backgroundAlpha>
         <bold>false</bold>
         <size>20</size>
-        <text>Overview</text>
+        <text>Administration</text>
       </controlProperties>
     </control>
-    <control controlID="4" controlTypeID="com.balsamiq.mockups::TextArea" x="570" y="406" w="1026" h="41" measuredW="200" measuredH="140" zOrder="5" locked="false" isInGroup="-1">
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::TextArea" x="570" y="610" w="1026" h="41" measuredW="200" measuredH="140" zOrder="5" locked="false" isInGroup="-1">
       <controlProperties>
         <align>left</align>
         <backgroundAlpha>0.5</backgroundAlpha>
         <bold>false</bold>
         <size>20</size>
-        <text>Mission%20Statement</text>
+        <text>Humanities</text>
       </controlProperties>
     </control>
-    <control controlID="5" controlTypeID="com.balsamiq.mockups::TextArea" x="570" y="489" w="1026" h="41" measuredW="200" measuredH="140" zOrder="6" locked="false" isInGroup="-1">
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::TextArea" x="570" y="692" w="1026" h="41" measuredW="200" measuredH="140" zOrder="6" locked="false" isInGroup="-1">
       <controlProperties>
         <align>left</align>
         <backgroundAlpha>0.5</backgroundAlpha>
         <bold>false</bold>
         <size>20</size>
-        <text>From%20the%20Head</text>
+        <text>Arts</text>
       </controlProperties>
     </control>
-    <control controlID="6" controlTypeID="com.balsamiq.mockups::TextArea" x="570" y="447" w="1026" h="41" measuredW="200" measuredH="140" zOrder="7" locked="false" isInGroup="-1">
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::TextArea" x="570" y="651" w="1026" h="41" measuredW="200" measuredH="140" zOrder="7" locked="false" isInGroup="-1">
       <controlProperties>
         <align>left</align>
         <backgroundAlpha>0.5</backgroundAlpha>
         <bold>false</bold>
         <size>20</size>
-        <text>Founder%27s%20Statement</text>
+        <text>Sciences</text>
       </controlProperties>
     </control>
-    <control controlID="7" controlTypeID="com.balsamiq.mockups::TextArea" x="570" y="529" w="1026" h="41" measuredW="200" measuredH="140" zOrder="8" locked="false" isInGroup="-1">
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::TextArea" x="571" y="733" w="1026" h="41" measuredW="200" measuredH="140" zOrder="8" locked="false" isInGroup="-1">
       <controlProperties>
         <align>left</align>
         <backgroundAlpha>0.5</backgroundAlpha>
         <bold>false</bold>
         <size>20</size>
-        <text>Alumni</text>
-      </controlProperties>
-    </control>
-    <control controlID="8" controlTypeID="com.balsamiq.mockups::Canvas" x="570" y="283" w="1027" h="491" measuredW="100" measuredH="70" zOrder="3" locked="false" isInGroup="-1">
-      <controlProperties>
-        <backgroundAlpha>0.5</backgroundAlpha>
+        <text>Lower%20School</text>
       </controlProperties>
     </control>
     <control controlID="9" controlTypeID="com.balsamiq.mockups::TextArea" x="347" y="324" w="208" h="41" measuredW="200" measuredH="140" zOrder="9" locked="false" isInGroup="-1">
@@ -88,7 +88,7 @@
         <text>Curriculum</text>
       </controlProperties>
     </control>
-    <control controlID="11" controlTypeID="com.balsamiq.mockups::TextArea" x="347" y="447" w="208" h="41" measuredW="200" measuredH="140" zOrder="11" locked="false" isInGroup="-1">
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::TextArea" x="347" y="448" w="208" h="41" measuredW="200" measuredH="140" zOrder="11" locked="false" isInGroup="-1">
       <controlProperties>
         <align>left</align>
         <backgroundAlpha>0.5</backgroundAlpha>
@@ -106,7 +106,7 @@
         <text>Community</text>
       </controlProperties>
     </control>
-    <control controlID="13" controlTypeID="com.balsamiq.mockups::TextArea" x="347" y="488" w="208" h="41" measuredW="200" measuredH="140" zOrder="13" locked="false" isInGroup="-1">
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::TextArea" x="347" y="489" w="208" h="41" measuredW="200" measuredH="140" zOrder="13" locked="false" isInGroup="-1">
       <controlProperties>
         <align>left</align>
         <backgroundAlpha>0.5</backgroundAlpha>
@@ -121,10 +121,10 @@
         <text/>
       </controlProperties>
     </control>
-    <control controlID="15" controlTypeID="com.balsamiq.mockups::Paragraph" x="577" y="291" w="1019" h="80" measuredW="275" measuredH="80" zOrder="15" locked="false" isInGroup="-1">
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::Paragraph" x="577" y="324" w="1005" h="288" measuredW="275" measuredH="80" zOrder="15" locked="false" isInGroup="-1">
       <controlProperties>
-        <size>18</size>
-        <text>Pierrepont%20School%20is%20a%20small%2C%20independent%2C%20co-educational%20elementary%20and%20high%20school%20based%20in%20Westport%2C%20Connecticut.%20Founded%20in%201999%2C%20the%20school%20moved%20into%20its%20current%20building%20on%20Sylvan%20Road%20in%20the%20fall%20of%202002.%20The%20school%20enrolls%20students%20from%20kindergarten%20through%20high%20school%20ages.%20</text>
+        <size>16</size>
+        <text>Eleanor%20Chai%20Beer%0AFounder%0AM.A.%2C%20Anthropology%2C%20Harvard%20University%0AB.A.%2C%20Sarah%20Lawrence%20College%0A%20%0ANancy%20M.%20Webber%0AHead%20of%20School%0AM.Ed.%2C%20Harvard%20University%0AB.A.%2C%20English%2C%20Boston%20University%0A%20%0ATunde%20A.%20Jackson%0AAssociate%20Head%20of%20School%0AB.A.%2C%20Sociology%20%26%20African-American%20Studies%2C%20Oberlin%20College</text>
       </controlProperties>
     </control>
   </controls>
