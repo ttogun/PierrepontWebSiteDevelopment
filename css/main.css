@@ -34,12 +34,12 @@
     float: right;
     width: 77%;
     padding: 0;
-    
+
 }
 /* Needs better dimensions, will be easier with image */
 #logo{
     width: 100%;
- 
+
 }
 #logoContainer {
     display: inline-block;
