@@ -1,0 +1,75 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1612" measuredH="827" mockupW="1355" mockupH="800">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="332" y="27" w="1280" h="800" measuredW="450" measuredH="400" zOrder="0" locked="true" isInGroup="-1">
+      <controlProperties>
+        <text>The%20Pierrepont%20School%0Ahttp%3A//www.pierrepontschool.org</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Image" x="336" y="101" w="1272" h="701" measuredW="1280" measuredH="878" zOrder="1" locked="true" isInGroup="-1">
+      <controlProperties>
+        <src>http%3A//upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Pierrepont_School%2C_Westport%2C_CT_06880%2C_USA_-_Oct_2013.jpg/1280px-Pierrepont_School%2C_Westport%2C_CT_06880%2C_USA_-_Oct_2013.jpg</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::TextArea" x="347" y="283" w="208" h="41" measuredW="200" measuredH="140" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <bold>true</bold>
+        <size>24</size>
+        <text>About</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::TextArea" x="347" y="324" w="208" h="41" measuredW="200" measuredH="140" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <bold>true</bold>
+        <size>24</size>
+        <text>Faculty</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::TextArea" x="347" y="366" w="208" h="41" measuredW="200" measuredH="140" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <bold>true</bold>
+        <size>24</size>
+        <text>Curriculum</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::TextArea" x="347" y="449" w="208" h="41" measuredW="200" measuredH="140" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <bold>true</bold>
+        <size>24</size>
+        <text>Admissions</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::TextArea" x="347" y="408" w="208" h="41" measuredW="200" measuredH="140" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <bold>true</bold>
+        <size>24</size>
+        <text>Community</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::TextArea" x="347" y="490" w="208" h="41" measuredW="200" measuredH="140" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <bold>true</bold>
+        <size>24</size>
+        <text>Contact</text>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::Image" x="257" y="35" w="412" h="256" measuredW="300" measuredH="165" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/logo.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
