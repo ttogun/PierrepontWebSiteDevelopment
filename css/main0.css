@@ -1,0 +1,65 @@
+/*!
+ * Pierrepont Website Main CSS
+ * Copyright 2014 Pierrepont Solutions
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+#page{
+    height: 100%;
+    overflow-x: hidden;
+
+}
+#body{
+    height: 100%;
+
+}
+.container{
+    margin:0;
+    width: auto;
+    padding: 0;
+}
+#sidebar{
+    margin-left: 2%;
+    margin-right: 0;
+    margin-top: 17%;
+    width: 17%;
+    padding: 0;
+    float: left;
+    position: fixed;
+}
+#content{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 17%;
+    float: right;
+    width: 77%;
+    padding: 0;
+
+}
+/* Needs better dimensions, will be easier with image */
+#logo{
+    width: 100%;
+
+}
+#logoContainer {
+    width: 200px;
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#dummy {
+    margin-top: 0%; /* 4:3 aspect ratio */
+}
+.col-md-8{
+    width: 100%;
+}
+.panel-title{
+    color: #519332;
+
+}
+
+.sidebarLink{
+    padding-left: 0em;
+}
+.activeLink{
+    padding-left: 1.5em;
+}
