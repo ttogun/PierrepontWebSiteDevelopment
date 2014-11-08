@@ -31,12 +31,6 @@
 
     <div class="container theme-showcase" role="main">
 
-    <div id="logoContainer" style="visibility:hidden">
-        <!--div id="dummy"></div-->
-        <img id="logo" src="./logo.png">
-        <!--object id="logo" type="image/svg+xml" data="logo0.svg">Your browser does not support SVG</object-->
-    </div>
-
 
     <!-- Sidebar -->
       <nav id="sidebar-wrapper">
@@ -46,40 +40,90 @@
         </div>
             <ul class="sidebar-nav">
                 <li>
-                    <a href="#">Dashboard</a>
+                    <a href="#choose-sub">About</a>
+                    <ul class="sidebar-nav-sub active-sub">
+                      <li>
+                          <a href="#">Overview</a>
+                      </li>
+                      <li>
+                          <a href="#">Mission Statement</a>
+                      </li>
+                      <li>
+                          <a href="#">Founder's Statement</a>
+                      </li>
+                      <li>
+                          <a href="#">From the Head</a>
+                      </li>
+                      <li>
+                          <a href="#">Alumni</a>
+                      </li>
+                    </ul>
                 </li>
                 <li>
-                    <a href="#">Shortcuts</a>
+                    <a href="#choose-sub">Faculty</a>
+                    <ul class="sidebar-nav-sub">
+                      <li>
+                          <a href="#">Admissions</a>
+                      </li>
+                      <li>
+                          <a href="#">Humanities</a>
+                      </li>
+                      <li>
+                          <a href="#">Sciences</a>
+                      </li>
+                      <li>
+                          <a href="#">Arts</a>
+                      </li>
+                      <li>
+                          <a href="#">Lower School</a>
+                      </li>
+                    </ul>
                 </li>
                 <li>
-                    <a href="#">Overview</a>
+                    <a href="#choose-sub">Curriculum</a>
+                    <ul class="sidebar-nav-sub">
+                      <li>
+                          <a href="#">Humanities</a>
+                      </li>
+                      <li>
+                          <a href="#">Sciences</a>
+                      </li>
+                      <li>
+                          <a href="#">Arts</a>
+                      </li>
+                      <li>
+                          <a href="#">Lower School</a>
+                      </li>
+                    </ul>
                 </li>
                 <li>
-                    <a href="#">Events</a>
+                    <a href="#choose-sub">Community</a>
                 </li>
                 <li>
-                    <a href="#">About</a>
+                    <a href="#choose-sub">Admissions</a>
+                    <ul class="sidebar-nav-sub">
+                      <li>
+                          <a href="#">Apply</a>
+                      </li>
+                      <li>
+                          <a href="#">FAQs</a>
+                      </li>
+                    </ul>
                 </li>
                 <li>
-                    <a href="#">Services</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
+                    <a href="#choose-sub">Contact</a>
                 </li>
             </ul>
         </nav>
         <!-- /#sidebar-wrapper -->
 
-    <div id="content">
-        <div class="ContentAccordion">
-            <div class="panel-group" id="Accordion">
-                <!--The first panel in ws-->
-                <div class="panel panel-default">
-                    <div id="StuffPanel" class="panel-collapse collapse in">
-                        <div class="panel-body text-center">
-                            <div class="row">
-                                <div class="col-md-8">
-                                    <p>
+    <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1>Overview</h1>
+                        <p>
 The Pierrepont School is a small, independent, co-educational elementary and high school based in Westport, Connecticut. Founded in 1999, the school moved into its current building on Sylvan Road in the fall of 2002. The school enrolls students from kindergarten through high school ages.</p>
 
 <p>The school currently consists of ?????? students, K–12, and ?????? full and part-time teachers, offering a student to faculty ratio of ??????. Classes, therefore, are small, and student schedules are individualized. Senior faculty members typically have post-graduate degrees from leading universities and are professionally active in their fields. The school seeks and supports teachers who bring into the classroom the same passion and rigor they bring to the study of their own discipline. (See individual faculty under each discipline.)
@@ -88,17 +132,12 @@ Pierrepont seeks students who are academically motivated and engaged and who can
 <p>The Pierrepont School does not give grades. Parents receive written assessments of their child’s progress four times a year. A cover report from the Head of School or Associate Head of School accompanies the June reports. The school closes for two days, one in November and one in April, for parent-teacher conferences. Standardized testing (ERB) in basic skills areas (math and language/reading) is administered annually.</p>
 <p>Pierrepont is currently accepting applications for the 2014 – 2015 school year. School tours for prospective parents are conducted on Thursdays at 11:00 AM beginning in October. Please call Tundé Jackson to arrange for a tour. Tuition assistance is available according to financial need.</p>
 <p>The Pierrepont School does not discriminate on the basis of race, color, gender, religion, age, ancestry, national origin, or sexual orientation in the administration of its educational programs, admission policies, financial aid policies, or any other school-administered programs.</p>
-<a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
-                                </div><!--/.col-md-8-->
-                            </div><!--/.row-->
-                        </div><!--/.panel-body-->
-                    </div><!--/.id=StuffPanel-->
-                </div><!--/.panel panel-default-->
-
-            </div><!--/.panel-group-->
-        </div><!--/.id=ws-->
-
-    </div>
+                        <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
 
 
     </div> <!-- /container -->
@@ -115,6 +154,11 @@ Pierrepont seeks students who are academically motivated and engaged and who can
     $("#menu-toggle").click(function(e) {
         e.preventDefault();
         $("#wrapper").toggleClass("toggled");
+    });
+
+    $("#choose-sub").click(function(e) {
+      $(".active-sub").removeClass("active-sub");
+      $(this).next().addClass("active-sub");
     });
     </script>
 
