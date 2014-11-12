@@ -39,10 +39,7 @@
     width: 250px;
 }
 
-#content {
-    width: 100%;
-    padding: 15px;
-}
+
 
 #wrapper.toggled #content {
     position: absolute;
@@ -101,15 +98,35 @@
     background: none;
 }
 
+#topbar{
+  position:absolute;
+}
+
 @media(max-width:768px) {
   #menu-toggle{
     visibility: visible;
   }
+  #topbar{
+    top: 0;
+  }
+  #heading{
+    margin-top:80px;
+  }
+}
+
+@media(max-width:332px){
+    #school-heading{
+      display: none;
+    }
 }
 
 @media(min-width:768px) {
     #wrapper {
         padding-left: 250px;
+    }
+
+    #topbar{
+      top: -60px;
     }
 
     #wrapper.toggled {
