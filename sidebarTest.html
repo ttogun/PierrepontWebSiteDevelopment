@@ -40,7 +40,7 @@
         </div>
             <ul class="sidebar-nav">
                 <li>
-                    <a href="#choose-sub">About</a>
+                    <a class="choose-sub">About</a>
                     <ul class="sidebar-nav-sub active-sub">
                       <li>
                           <a href="#">Overview</a>
@@ -60,7 +60,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="#choose-sub">Faculty</a>
+                    <a class="choose-sub">Faculty</a>
                     <ul class="sidebar-nav-sub">
                       <li>
                           <a href="#">Admissions</a>
@@ -80,7 +80,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="#choose-sub">Curriculum</a>
+                    <a class="choose-sub">Curriculum</a>
                     <ul class="sidebar-nav-sub">
                       <li>
                           <a href="#">Humanities</a>
@@ -97,10 +97,24 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="#choose-sub">Community</a>
+                    <a class="choose-sub">Community</a>
+                    <ul class="sidebar-nav-sub">
+                      <li>
+                          <a href="#">Bob</a>
+                      </li>
+                      <li>
+                          <a href="#">Joe</a>
+                      </li>
+                      <li>
+                          <a href="#">Ann</a>
+                      </li>
+                      <li>
+                          <a href="#">Steven</a>
+                      </li>
+                    </ul>
                 </li>
                 <li>
-                    <a href="#choose-sub">Admissions</a>
+                    <a class="choose-sub">Admissions</a>
                     <ul class="sidebar-nav-sub">
                       <li>
                           <a href="#">Apply</a>
@@ -111,7 +125,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="#choose-sub">Contact</a>
+                    <a class="choose-sub">Contact</a>
                 </li>
             </ul>
         </nav>
@@ -155,8 +169,9 @@ Pierrepont seeks students who are academically motivated and engaged and who can
         e.preventDefault();
         $("#wrapper").toggleClass("toggled");
     });
-
-    $("#choose-sub").click(function(e) {
+    </script>
+    <script>
+    $(".choose-sub").click(function(e) {
       $(".active-sub").removeClass("active-sub");
       $(this).next().addClass("active-sub");
     });
