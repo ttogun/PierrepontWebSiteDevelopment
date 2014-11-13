@@ -46,7 +46,7 @@
     display: inline;
 }
 
-#menu-toggle{
+#menu-toggle-div{
   position: relative;
   float: left;
   margin-top:13px;
@@ -55,6 +55,20 @@
   height: 30px;
   width: 30px;
 
+}
+
+#menu-toggle-img{
+    position: relative;
+    top: -3.5px;
+    left: -9.5px;
+    width: 23px;
+    height: 23px;
+}
+
+#menu-toggle{
+  height: 100%;
+  width: 100%;
+  background-image: none;
 }
 
 #content{
