@@ -28,7 +28,7 @@
     margin-left: -250px;
     overflow-y: auto;
     overflow-x: hidden;
-    background: #b3ff80;
+    background: #c2ff99;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -112,6 +112,9 @@
   #heading{
     margin-top:80px;
   }
+  #background-img{
+    display: none !important;
+  }
 }
 
 @media(max-width:332px){
@@ -135,7 +138,7 @@
 
     #sidebar-wrapper {
         width: 250px;
-        background-color: #b3ff80;
+        background-color: #c2ff99;/*#b3ff80;*/
     }
 
     #wrapper.toggled #sidebar-wrapper {
