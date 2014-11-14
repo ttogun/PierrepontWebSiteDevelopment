@@ -117,6 +117,18 @@
   }
 }
 
+/* Temporary fix for screen size bigger that backround image allows */
+@media(min-width:1988px){
+    #background-img{
+      display: none;
+    }
+}
+@media(min-height:1137px){
+    #background-img{
+      display: none;
+    }
+}
+
 @media(max-width:332px){
     #school-heading{
       display: none;
