@@ -150,15 +150,6 @@
 
     <!-- Page Content -->
         <div id="page-content-wrapper">
-          <img id="background-img" src="jpg.jpg">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-12">
-
-
-                    </div>
-                </div>
-            </div>
         </div>
         <!-- /#page-content-wrapper -->
 
@@ -173,17 +164,51 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../js/ie10-viewport-bug-workaround.js"></script>
 
-    <script>
+    <script type="text/javascript">
     $("#menu-toggle").click(function(e) {
         e.preventDefault();
         $("#wrapper").toggleClass("toggled");
     });
-    </script>
-    <script>
+
     $(".choose-sub").click(function(e) {
       $(".active-sub").removeClass("active-sub");
       $(this).next().addClass("active-sub");
     });
+    </script>
+    <script>
+
+    var galleryarray=new Array();
+    galleryarray[0]='school.jpg'
+    galleryarray[1]='sing.jpg'
+    galleryarray[2]='rainyday.jpg'
+    galleryarray[3]='play.jpg';
+
+    var curimg=0
+    function rotateimages(){
+      var content = document.querySelector("#page-content-wrapper");
+      var path = "./photos/" + galleryarray[curimg];
+      content.style.background = "url(" + path + ")";
+      content.style.backgroundPosition = "left top";
+      content.style.backgroundSize = "cover";
+
+      curimg=(curimg<galleryarray.length-1)? curimg+1 : 0
+
+    }
+
+    var imgs=new Array();
+
+    function createImgs() {
+        for( var index = 0; index < galleryarray.length; index++ ) {
+            imgs.push( document.createElement( 'img' ) );
+            imgs[index].src = "./photos/" + galleryarray[index];
+        };
+    };
+
+    createImgs();
+
+    window.onload=function(){
+        setInterval("rotateimages()", 5000)
+    }
     </script>
 
 

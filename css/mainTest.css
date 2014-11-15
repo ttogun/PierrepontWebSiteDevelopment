@@ -46,13 +46,7 @@
     display: inline;
 }
 
-#background-img{
-    display: block;
-    background-size: cover;
-    position: fixed;
-    /*opacity: .4;*/
-    z-index: -1;
-  }
+
 
 
 #menu-toggle-div{
