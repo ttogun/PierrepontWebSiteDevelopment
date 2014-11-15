@@ -33,6 +33,10 @@
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
+
+    webkit-box-shadow: 0 0 2px black,0 0 2px #c2ff99;
+    -moz-box-shadow: 0 0 2px black,0 0 2px #c2ff99;
+        box-shadow: 0 0 2px black,0 0 2px #c2ff99;
 }
 
 #wrapper.toggled #sidebar-wrapper {
@@ -108,6 +112,10 @@
   }
   #topbar{
     top: 0;
+
+    webkit-box-shadow: 0 1px 0 #black, 0 1px 0 #c2ff99;
+    -moz-box-shadow: 0 1px 0 #black, 0 1px 0 #c2ff99;
+        box-shadow: 0 1px 0 #black, 0 1px 0 #c2ff99;
   }
   #heading{
     margin-top:80px;
