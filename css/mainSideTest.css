@@ -1,5 +1,5 @@
 #page-content-wrapper{
-  background: url(../photos/school.jpg);
+  background: url("../photos/school.jpg");
   background-repeat: no-repeat;
   background-position: left top
   background-attachment: fixed;
@@ -10,13 +10,4 @@
 
   height:100%;
   width:100%;
-
-  -webkit-transition: all 0.1s ease;
-  -moz-transition: all 0.1s ease;
-  -o-transition: all 0.1s ease;
-  transition: all 0.1s ease;
-}
-
-#wrapper{
-  height:100%;
 }
