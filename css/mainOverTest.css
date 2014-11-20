@@ -1,13 +1,18 @@
 #page-content-wrapper{
-  background: url("../photos/school back.jpg");
+  /*background: url("../logoback10.png");
   background-repeat: no-repeat;
-  background-position: left top
+  background-position: left top;
   background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover;*/
 
   height:100%;
   width:100%;
+}
+
+#watermark{
+  height: 500px;
+  width: 500px;
 }
