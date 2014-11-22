@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en" id="page">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="Pierrepont Solutions">
+        <link rel="shortcut icon" href="./favicon.ico"/>
+
+        <title>The Pierrepont School</title>
+
+
+        <link href="./css/bootstrap.min.css" rel="stylesheet">
+        <link href="./css/bootstrap-theme.min.css" rel="stylesheet">
+
+        <link href="./css/main.css" rel="stylesheet">
+        <link href="./css/home.css" rel="stylesheet">
+
+
+        <style id="holderjs-style" type="text/css">
+        </style>
+    </head>
+
+    <body id="body" role="document">
+
+    <div id="wrapper">
+
+    <!-- Topbar -->
+    <div id="topbar">
+      <div id="topbar-heading">
+        Pierrepont
+        <span id="school-heading">
+          School
+        </span>
+      </div>
+      <div id="menu-toggle-div">
+        <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">
+        <img id="menu-toggle-img" src="./menu-icon.png"></a>
+
+      </div>
+      </div>
+
+
+      <!-- Sidebar -->
+      <nav id="sidebar-wrapper">
+        <div id="logoContainer">
+          <a href="./index.html"><img id="logo" src="./logo.png"></a>
+        </div>
+        <ul class="sidebar-nav">
+          <li>
+            <a class="choose-sub">About</a>
+            <ul class="sidebar-nav-sub active-sub">
+              <li>
+                <a href="./about/overview.html">Overview</a>
+              </li>
+              <li>
+                <a href="./about/mission statement.html">Mission Statement</a>
+              </li>
+              <li>
+                <a href="./about/mission statement.html">Founder's Statement</a>
+              </li>
+              <li>
+                <a href="./about/from the head.html">From the Head</a>
+              </li>
+              <li>
+                <a href="./about/alumni.html">Alumni</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a class="choose-sub">Faculty</a>
+            <ul class="sidebar-nav-sub">
+              <li>
+                <a href="./faculty/administration.html">Administration</a>
+              </li>
+              <li>
+                <a href="./faculty/humanities.html">Humanities</a>
+              </li>
+              <li>
+                <a href="./faculty/sciences.html">Sciences</a>
+              </li>
+              <li>
+                <a href="./faculty/arts.html">Arts</a>
+              </li>
+              <li>
+                <a href="./faculty/lower school.html">Lower School</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a class="choose-sub">Curriculum</a>
+            <ul class="sidebar-nav-sub">
+              <li>
+                <a href="./curriculum/humanities.html">Humanities</a>
+              </li>
+              <li>
+                <a href="./curriculum/sciences.html">Sciences</a>
+              </li>
+              <li>
+                <a href="./curriculum/arts.html">Arts</a>
+              </li>
+              <li>
+                <a href="./curriculum/lower school.html">Lower School</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a class="choose-sub">Community</a>
+            <ul class="sidebar-nav-sub">
+              <li>
+                <a href="./community/community.html">Community</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a class="choose-sub">Admissions</a>
+            <ul class="sidebar-nav-sub">
+              <li>
+                <a href="./admission/apply.html">Apply</a>
+              </li>
+              <li>
+                <a href="./admissions/faqs.html">FAQs</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a class="choose-sub">Contact</a>
+            <ul class="sidebar-nav-sub">
+              <li>
+                <a href="./contact/contact.html">Contact</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+        </div>
+        <!-- /#page-content-wrapper -->
+
+
+    </div> <!-- /wrapper -->
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/portfolio.js"></script>
+    <script src="./js/main.js"></script>
+
+    <script type="text/javascript">
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+
+    $(".choose-sub").click(function(e) {
+      $(".active-sub").removeClass("active-sub");
+      $(this).next().addClass("active-sub");
+    });
+    </script>
+    <script>
+
+    var galleryarray=new Array();
+    galleryarray[0]='school.jpg'
+    galleryarray[1]='sing.jpg'
+    galleryarray[2]='rainyday.jpg'
+    galleryarray[3]='play.jpg';
+
+    var curimg=0
+    function rotateimages(){
+      var content = document.querySelector("#page-content-wrapper");
+      var path = "./photos/" + galleryarray[curimg];
+      content.style.background = "url(" + path + ")";
+      content.style.backgroundPosition = "left top";
+      content.style.backgroundSize = "cover";
+
+      curimg=(curimg<galleryarray.length-1)? curimg+1 : 0
+
+    }
+
+    var imgs=new Array();
+
+    function createImgs() {
+        for( var index = 0; index < galleryarray.length; index++ ) {
+            imgs.push( document.createElement( 'img' ) );
+            imgs[index].src = "./photos/" + galleryarray[index];
+        };
+    };
+
+    createImgs();
+
+    window.onload=function(){
+        setInterval("rotateimages()", 5000)
+    }
+    </script>
+
+
+</div></body></html>
