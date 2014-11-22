@@ -1,18 +1,36 @@
 #page-content-wrapper{
-  /*background: url("../logoback10.png");
-  background-repeat: no-repeat;
-  background-position: left top;
-  background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;*/
+
 
   height:100%;
   width:100%;
 }
 
+.row{
+  background: url("../logo10spaced.png");
+  background-repeat: repeat;
+  /*background-position: 50% 50%;*/
+  background-attachment: fixed;
+  /*background-size: 40%;*/
+  /*-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+
+  height: 100%;
+
+
+}
+
+#watermark-wrapper{
+  width: 100%;
+
+}
+
 #watermark{
-  height: 500px;
-  width: 500px;
+  display: block;
+  width: 40%;
+  height: 40%;
+
+  margin-left: auto;
+  margin-right: auto;
 }
