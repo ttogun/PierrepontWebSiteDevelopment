@@ -139,6 +139,9 @@
 
         <!-- Page Content -->
         <div id="page-content-wrapper">
+          <div id="notification-wrapper">
+
+          </div>
         </div>
         <!-- /#page-content-wrapper -->
 
@@ -149,6 +152,7 @@
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/portfolio.js"></script>
     <script src="./js/main.js"></script>
+    <script src="./js/notify.js"></script>
 
     <script type="text/javascript">
     $("#menu-toggle").click(function(e) {
@@ -193,7 +197,10 @@
     createImgs();
 
     window.onload=function(){
-        setInterval("rotateimages()", 5000)
+        setInterval("rotateimages()", 5000);
+
+        $.notify( $('#notification-wrapper'), "School Closed Today", {autoHide: false});
+
     }
     </script>
 

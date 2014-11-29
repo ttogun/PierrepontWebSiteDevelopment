@@ -185,6 +185,10 @@
   margin-bottom: 25px;
 }
 
+.notifyjs-arrow {
+  display: none !important;
+}
+
 @media(max-width:768px) {
   #menu-toggle{
     visibility: visible;
@@ -238,5 +242,9 @@
 
   #content {
     padding: 20px;
+  }
+
+  .notifyjs-wrapper {
+    display:inline-block;
   }
 }
