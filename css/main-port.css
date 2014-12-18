@@ -180,7 +180,7 @@ h3 {
   /*font-family:  'Montserrat', sans-serif;*/
   color: black;
   font-style: bolder;
-  padding-top: 30px;
+  padding-top: 0px;
 }
 
 .carousel-caption {
@@ -189,6 +189,8 @@ h3 {
   letter-spacing: -.045em;
   line-height: 200%;
   color: black;
+  position: static;
+  padding-top: 0px;
 }
 
 .carousel-caption h1 {
@@ -197,13 +199,13 @@ h3 {
 }
 
 .carousel-caption p {
-  font-style: italic;
+  font-style: normal;
   font-size: 200%;
   color: black;
 }
 
 .carousel .item {
-  height: 600px;
+  height: 100%;
   /*background-color: #006496;*/
 }
 
@@ -383,4 +385,18 @@ a:focus {
 
 #AppCarousel {
   height: 100%;
+}
+
+.carousel-control {
+  background-image: none !important;
+  color: #c2ff99;
+}
+
+.carousel-control:hover {
+  color: #99da65;
+}
+
+.slide {
+  width: 100% !important;
+  padding-top: 0 !important;
 }
