@@ -400,3 +400,25 @@ a:focus {
   width: 100% !important;
   padding-top: 0 !important;
 }
+
+.slide-image{
+  background: url("");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  height:50%;
+  width:100%;
+}
+
+.carousel-inner {
+  height: 100%;
+}
+
+.carousel-control .glyphicon {
+  top: 200px;/*25%;*/
+}
