@@ -422,3 +422,13 @@ a:focus {
 .carousel-control .glyphicon {
   top: 25%;
 }
+
+@media(max-width:768px) {
+  #wrapper{
+    margin-top: 60px;
+  }
+
+  .carousel .item {
+    height: 100%;
+  }
+}

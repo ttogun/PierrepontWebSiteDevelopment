@@ -1,0 +1,55 @@
+2015-01-06
+Pierrepont Solutions
+Initial Structure for Report(+Beyond) Database
+###############################################
+Notation:
+
+Table Entry Type
+  data
+  ->Pointer
+  [->List of Pointers]
+###############################################
+
+Student
+  ->Big Student
+  [->Report]
+  year
+Teacher
+  ->Big Teacher
+  [->Report]
+  [->Class]
+  year
+Class
+  ->Teacher
+  [->Student]
+  name
+  description
+  ->Group	(Set to null at end of year)
+  Year
+Editor
+  name
+  [->Group]
+  email
+  password
+  salt
+Group
+  name
+  [->Class]
+  ->Editor
+Report
+  ->Student
+  ->Teacher
+  ->Class
+  quarter/semester
+  year
+  content
+Big Student
+  name
+  [->Student]
+Big Teacher
+  name
+  [->Teacher]
+  email
+  password
+  salt
+  
