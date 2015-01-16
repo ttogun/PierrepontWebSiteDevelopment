@@ -1,10 +1,4 @@
-/*
-Team BuReTo:
-Paul Burinda, Yan Ren, Taiwo Togun
-main.css
-A100 Portfolio Sheet
 
-*/
 
 /* GLOBAL STYLES */
   /* Text Alignment */
@@ -186,11 +180,15 @@ h3 {
 .carousel-caption {
   z-index: 10;
   /*font-family: 'Montserrat', sans-serif;*/
-  letter-spacing: -.045em;
   line-height: 200%;
   color: black;
   position: static;
   padding-top: 0px;
+  padding-left:15%;
+  padding-right:15%;
+  padding-bottom:5%;
+  height:100%;
+  overflow-y:auto;
 }
 
 .carousel-caption h1 {
@@ -202,6 +200,14 @@ h3 {
   font-style: normal;
   font-size: 200%;
   color: black;
+}
+
+.caption-body {
+  font-size: 80%;
+}
+
+.caption-big {
+  /*height: 100%;*/
 }
 
 .carousel .item {
@@ -369,6 +375,7 @@ a:focus {
 .container-fluid {
   padding: 0;
   height: 100%;
+  overflow-y: auto;
 }
 
 .carousel-heading {
@@ -402,6 +409,8 @@ a:focus {
 }
 
 .slide-image{
+  margin-left: auto;
+  margin-right: auto;
   background: url("");
   background-repeat: no-repeat;
   background-position: center center;
@@ -412,7 +421,7 @@ a:focus {
   background-size: cover;
 
   height:50%;
-  width:100%;
+  width: 70% !important;
 }
 
 .carousel-inner {
@@ -430,5 +439,14 @@ a:focus {
 
   .carousel .item {
     height: 100%;
+    width: 100%;
   }
+}
+
+#Apprentice-Carousel{
+  overflow-y: auto !important;
+}
+
+.caption-container {
+  height: 50%;
 }
