@@ -1,0 +1,22 @@
+.faculty-image{
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  float: left;
+}
+
+.faculty-text{
+  margin-left: 110px;
+  /* Needs Fixing */
+  position: absolute;
+  bottom:0;
+}
+
+.big-container{
+  height: 100%;
+}
+
+.faculty-item{
+  /* Needs Fixing */
+  display: block;
+}
