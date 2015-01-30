@@ -7,9 +7,10 @@
 
 .faculty-text{
   margin-left: 110px;
-  /* Needs Fixing */
-  position: absolute;
-  bottom:0;
+  vertical-align: baseline;
+  position: relative;
+  top: 40px;
+  width: auto;
 }
 
 .big-container{
@@ -17,6 +18,24 @@
 }
 
 .faculty-item{
-  /* Needs Fixing */
-  display: block;
+  margin-bottom: 90px;
+  /*width: 50%;*/
+}
+
+@media(min-width: 768px){
+  .faculty-column{
+    width: 50%;
+    display: inline;
+  }
+}
+
+@media(max-width: 768px){
+  .faculty-column{
+    width: 100%;
+    display: block;
+  }
+}
+
+#faculty-column-left{
+  float: left;
 }
