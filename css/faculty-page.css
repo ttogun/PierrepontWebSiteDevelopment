@@ -1,8 +1,12 @@
 .faculty-image{
   height: 100px;
   width: 100px;
-  background-color: red;
   float: left;
+  background-image: url(http://www.genengnews.com/app_themes/genconnect/images/default_profile.jpg);
+  background-size: 100%;
+  z-index: 2;
+  /* Position allows z-index to work */
+  position: relative;
 }
 
 .faculty-text{
@@ -10,6 +14,7 @@
   top: 40px;
   left: 10px;
   width: auto;
+  z-index: 1;
 }
 
 .faculty-text p{
@@ -23,7 +28,6 @@
 
 .faculty-item{
   margin-bottom: 90px;
-  /*width: 50%;*/
 }
 
 @media(min-width: 768px){
