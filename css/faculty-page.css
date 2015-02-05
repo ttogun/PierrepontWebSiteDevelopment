@@ -13,7 +13,7 @@
   position: relative;
   top: 40px;
   left: 10px;
-  width: auto;
+  width: 100%;
   z-index: 1;
 }
 
@@ -26,8 +26,13 @@
   height: 100%;
 }
 
+#faculty-column-right > .faculty-item{
+  
+}
+
 .faculty-item{
   margin-bottom: 90px;
+  width: 100%;
 }
 
 @media(min-width: 768px){
