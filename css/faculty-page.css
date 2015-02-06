@@ -26,8 +26,11 @@
   height: 100%;
 }
 
+.faculty-name{
+}
+
 #faculty-column-right > .faculty-item{
-  
+
 }
 
 .faculty-item{
@@ -38,14 +41,14 @@
 @media(min-width: 768px){
   .faculty-column{
     width: 50%;
-    display: inline;
+    display: inline-block;
   }
 }
 
 @media(max-width: 768px){
   .faculty-column{
     width: 100%;
-    display: block;
+    display: inline-block;
   }
 }
 
