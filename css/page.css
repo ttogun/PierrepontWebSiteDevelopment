@@ -1,16 +1,10 @@
 #page-content-wrapper{
-
-
   height:100%;
   width:100%;
 }
 
 .row{
-
-
   height: 100%;
-
-
 }
 
 body{
@@ -23,14 +17,10 @@ body{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;*/
-
-
-
 }
 
 #watermark-wrapper{
   width: 100%;
-
 }
 
 #watermark{
