@@ -20,6 +20,7 @@
 .faculty-text p{
   margin-top: 0;
   margin-bottom: 0;
+  padding-right: 15px;
 }
 
 .big-container{
@@ -39,14 +40,14 @@
   height: 60px;
 }
 
-@media(min-width: 768px){
+@media(min-width: 840px){
   .faculty-column{
     width: 50%;
     display: inline-block;
   }
 }
 
-@media(max-width: 768px){
+@media(max-width: 840px){
   .faculty-column{
     width: 100%;
     display: inline-block;
