@@ -1,11 +1,13 @@
 #page-content-wrapper{
-
-
   height:100%;
   width:100%;
 }
 
 .row{
+  height: 100%;
+}
+
+body{
   background: url("../logo10spaced.png");
   background-repeat: repeat;
   /*background-position: 50% 50%;*/
@@ -15,15 +17,10 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;*/
-
-  height: 100%;
-
-
 }
 
 #watermark-wrapper{
   width: 100%;
-
 }
 
 #watermark{
