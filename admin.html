@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" id="page">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Admin Dashboard">
+        <meta name="author" content="Pierrepont Solutions">
+        <link rel="shortcut icon" href="./favicon.ico"/>
+
+        <title>Admin Dashboard</title>
+
+
+        <link href="./css/bootstrap.min.css" rel="stylesheet">
+        <link href="./css/bootstrap-theme.min.css" rel="stylesheet">
+
+        <link href="./css/admin.css" rel="stylesheet">
+
+
+
+    </head>
+
+    <body id="body" role="document">
+
+    <div id="wrapper">
+      <div id="notif-loc">
+      </div>
+      <div class="page-header">
+        <h1>Pierrepont Administrator Dashboard</h1>
+      </div>
+
+      <div id="notification-update">
+          <h3>Update Home Page Notification</h3>
+          <div id="notif-form">
+            Status:&nbsp;
+            <select id="notif-on-off">
+              <option value="On">On</option>
+              <option value="Off">Off</option>
+            </select>
+            &nbsp;Type:&nbsp;
+            <select id="notif-on-off">
+              <option value="info">Info (blue)</option>
+              <option value="warning">Warning (yellow)</option>
+              <option value="important">Important (red)</option>
+            </select>
+            &nbsp;Text:&nbsp;
+            <input type="text" name="notif-text">
+            <input id="notif-submit" type="submit" onclick="notificationChange()">
+          </div>
+
+      </div>
+
+    </div> <!-- /wrapper -->
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/portfolio.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/notify.js"></script>
+
+    <script language="Javascript">
+      function notificationChange(){
+        $("#wrapper").notify("Homepage Notification Updated", "info");
+      }
+    </script>
+
+
+
+
+</div></body></html>
