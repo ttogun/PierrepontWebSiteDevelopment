@@ -32,22 +32,24 @@
 
       <div id="notification-update">
           <h3>Update Home Page Notification</h3>
-          <div id="notif-form">
+
+          <form action="changeNotification.php" method="POST" id="notif-form">
             Status:&nbsp;
-            <select id="notif-on-off">
-              <option value="On">On</option>
-              <option value="Off">Off</option>
+            <select name="onoff" id="notif-on-off">
+              <option value="on">On</option>
+              <option value="off">Off</option>
             </select>
             &nbsp;Type:&nbsp;
-            <select id="notif-on-off">
+            <select name="color" id="notif-type">
               <option value="info">Info (blue)</option>
-              <option value="warning">Warning (yellow)</option>
-              <option value="important">Important (red)</option>
+              <option value="warn">Warning (yellow)</option>
+              <option value="error">Important (red)</option>
             </select>
             &nbsp;Text:&nbsp;
-            <input type="text" name="notif-text">
+            <input name="message"type="text">
             <input id="notif-submit" type="submit" onclick="notificationChange()">
-          </div>
+          </form>
+
 
       </div>
 
@@ -61,7 +63,7 @@
 
     <script language="Javascript">
       function notificationChange(){
-        $("#wrapper").notify("Homepage Notification Updated", "info");
+        //$("#wrapper").notify("Homepage Notification Updated", "info");
       }
     </script>
 

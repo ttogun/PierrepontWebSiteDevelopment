@@ -137,6 +137,8 @@
       </nav>
       <!-- /#sidebar-wrapper -->
 
+
+
         <!-- Page Content -->
         <div id="page-content-wrapper">
           <div id="notification-wrapper">
@@ -153,6 +155,8 @@
     <script src="./js/portfolio.js"></script>
     <script src="./js/main.js"></script>
     <script src="./js/notify.js"></script>
+
+
 
     <script type="text/javascript">
     $("#menu-toggle").click(function(e) {
@@ -199,10 +203,21 @@
     window.onload=function(){
         setInterval("rotateimages()", 5000);
 
-        //$.notify( $('#notification-wrapper'), "School Closed Today", {autoHide: false});
+
 
     }
     </script>
+
+    <?php
+      $myfile = fopen("notification.txt", "r") or die("Unable to open file!");
+      $text = fread($myfile,filesize("notification.txt"));
+      $data = explode('$$', $text);
+      if ( $data[0] == 'on')
+        echo '<script type=\'text/javascript\'>$.notify( $(\'#notification-wrapper\'), ' , '\'', $data[2] , '\''  ,', {autoHide: false, className: \'', $data[1], '\'});</script>';
+      fclose($myfile);
+    ?>
+
+
 
 
 </div></body></html>
