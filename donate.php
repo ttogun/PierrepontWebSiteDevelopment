@@ -153,9 +153,43 @@
             <div class="col-lg-12" id="text-wrapper">
               <h1 id="heading">Donate</h1>
               <p>
-                If you would like to donate... (Need better text here)
+                If you would like to support our school with a donation, please provide your contact information below.
               </p>
-              <a href="mailto:nwebber@pierrepontschool.org?subject=Donation">Make a Donation</a>
+
+              <?php
+              //if "email" variable is filled out, send email
+                if ($_REQUEST['email'] != "" && $_REQUEST['name'] != "" && $_REQUEST['phone'] != "")  {
+
+                  //Email information
+                  $admin_email = "nwebber@pierrepontschool.org";
+                  $email = $_REQUEST['email'];
+                  $name =  $_REQUEST['name'];
+                  $phone = $_REQUEST['phone'];
+                  $content = "Dear Pierrepont Admin,\n" . $name . " would like to make a donation to support Pierrepont. Please contact them at " . $email . " or " . $phone;
+                  $subject = "Donation";
+
+                  mail($admin_email, "$subject", $content, "From:" . $email);
+                  echo "Thank you for your support, we will contact you shortly.";
+
+
+                }
+
+                //if "email" variable is not filled out, display the form
+                else  {
+              ?>
+
+              <form method="post">
+                <br>
+                <input name="name" type="text" placeholder="Name"><br>
+                <input name="email" type="text" placeholder="Email"><br>
+                <input name="phone" type="text" placeholder="Phone"><br><br>
+                Please complete all fields.<br><br>
+                <input type="submit" value="Submit">
+              </form>
+
+              <?php
+                }
+              ?>
 
             </div>
           </div>
