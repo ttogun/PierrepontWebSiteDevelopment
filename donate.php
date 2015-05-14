@@ -12,13 +12,13 @@
   <title>The Pierrepont School</title>
 
 
-  <link href="../css/bootstrap.min.css" rel="stylesheet">
-  <link href="../css/bootstrap-theme.min.css" rel="stylesheet">
+  <link href="./css/bootstrap.min.css" rel="stylesheet">
+  <link href="./css/bootstrap-theme.min.css" rel="stylesheet">
 
-  <link href="../css/main.css" rel="stylesheet">
-  <link href="../css/page.css" rel="stylesheet">
+  <link href="./css/main.css" rel="stylesheet">
+  <link href="./css/page.css" rel="stylesheet">
 
-  <script src="../js/ie-emulation-modes-warning.js"></script><style type="text/css"></style>
+  <script src="./js/ie-emulation-modes-warning.js"></script><style type="text/css"></style>
 
   <style id="holderjs-style" type="text/css">
   </style>
